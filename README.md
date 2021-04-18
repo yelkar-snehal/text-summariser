@@ -4,7 +4,7 @@
 
 ### Prerequisites: Python
 ```bash
-    sudo apt-get install python3               # linux
+    sudo apt-get install python3               # debian linux
 
     brew install python3                       # macOS
 ```
