@@ -130,3 +130,6 @@ dmypy.json
 
 # ide
 .idea/
+
+# virtuaenv
+.text-summariser-env/
