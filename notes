@@ -1,0 +1,7 @@
+- https://towardsdatascience.com/understanding-automatic-text-summarization-2-abstractive-methods-7099fa8656fe
+- doesn't necessarily reuse original sentences.
+- paraphrase new sentences from the given content.
+- uses Natural Language Generation(NLG); i.e., where data is converted to plain English.
+- Approaches: Sequence-to-Sequence RNN encoder-decoder model(primarily proposed for machine translation).
+- an encoder decoder model since the sizes of input and output are not dependent on each other.
+- attention mechanism to pick specific sequences on the go.
