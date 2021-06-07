@@ -134,3 +134,6 @@ dmypy.json
 
 # virtuaenv
 .text-summariser-env/
+
+#misc
+notes
