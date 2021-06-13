@@ -135,5 +135,9 @@ dmypy.json
 # virtuaenv
 .text-summariser-env/
 
+# OS specific
+.DS_Store
+
 #misc
 notes
+glove-data/
