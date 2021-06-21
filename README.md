@@ -3,6 +3,7 @@
 ## To run the code, you'll need Jupyter installed
 
 ### Prerequisites: Python
+
 ```bash
     sudo apt-get install python3               # debian linux
 
@@ -10,6 +11,7 @@
 ```
 
 ### Jupyter lab installation
+
 ```bash
     pip install jupyterlab                     # if you use pip
     # or
@@ -19,6 +21,7 @@
 ## Getting Started
 
 ### Create a virtaul environment
+
 ```bash
     # install package(s)
     pip install virtualenv                     # if you use pip
@@ -32,10 +35,11 @@
 ```
 
 ### Activate the environment
+
 ```bash
-    source .<name-of-the-env>
+    source .<name-of-the-env>/bin/activate
     # e.g.
-    source .text-summariser-env
+    source .text-summariser-env/bin/activate
 
     # verify
     which python
@@ -43,12 +47,15 @@
 ```
 
 ### Install Jupyter kernel
+
 ```bash
     ipython kernel install --user --name=.<name-of-the-env>
 ```
 
 ## Run the project
+
 ```bash
     jupyter lab <pwd>
 ```
+
 Once inside jupyter lab, choose the kernel with activated virtual env(e.g., .text-summariser-env) and run the notebook.
